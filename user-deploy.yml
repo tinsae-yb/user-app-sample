@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: user
-          image: docker.io/tinsae/user-demo:1.0.0
+          image: docker.io/tinsae/user-demo:2.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
